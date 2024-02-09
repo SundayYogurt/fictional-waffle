@@ -1,0 +1,27 @@
+
+.box{
+    width:"20px" ;
+    height:"20px";
+    background: rgb(0, 0, 0);
+margin: auto;
+transition: 0.5s;
+
+}
+.box:hover{
+    width:"20px" ;
+    height:"20px";
+    transform: scale(2.4);
+    background: #000000;
+    z-index: 2;
+    box-shadow: 2px 2px 2px #2e2e2e;
+    
+}
+.boxsize{
+    width:"20px" ;
+    height:"20px";
+}
+.body {
+    backdrop-filter: blur(20px);
+    background-image: linear-gradient(red, yellow);
+
+}
