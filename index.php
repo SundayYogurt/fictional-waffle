@@ -48,7 +48,7 @@
                                 <td><?= $r['FoodName'] ?></td>
                                 <td><?= $r['Price'] ?></td>
                                 <div class="boxsize">
-                                <td><img src="./Picture/<?= $r['Picture']; ?>" width="80px" height="80px" alt="image" class="box" onclick="enlargeImg()" id="img1" ></td>
+                                <td><img src="./picture/<?= $r['Picture']; ?>" width="80px" height="80px" alt="image" class="box" onclick="enlargeImg()" id="img1" ></td>
                         </div>
                                  <td><?= $r['MenuID'] ?></td>
                                 
